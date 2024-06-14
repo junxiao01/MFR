@@ -17,7 +17,7 @@ The Hong Kong Polytechnic University, Nanyang Technological University, Vector I
 - [x] [Pre-trained Models](#Pre-trained-Models)
 - [x] [Train and Test](#Train-and-Test)
 - [x] [Visual Results](#Visual-Results)
-- [x] [Citation](#Citations)
+- [x] [Citation](#Citation)
 
 
 ## Installation
@@ -34,8 +34,6 @@ conda activate mfn
 ```
 
 Our codes rely on the project of [SRWarp](https://github.com/sanghyun-son/srwarp). Please install it using the following commands.
-
-Then, please install pysrwarp as described in [SRWarp](https://github.com/sanghyun-son/srwarp).
 
 ```
 git clone https://github.com/sanghyun-son/pysrwarp
