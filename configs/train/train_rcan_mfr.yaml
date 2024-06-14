@@ -42,7 +42,7 @@ model:
       args:
         no_upsampling: true
     imnet_spec:
-      name: mlp #[mlp, resmfn]
+      name: mlp #[mlp, mfr]
       args:
         out_dim: 3
         hidden_list: [256, 256, 256]

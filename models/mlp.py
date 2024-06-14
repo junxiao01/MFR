@@ -137,8 +137,8 @@ class Filter_Layer(nn.Module):
         return new_z, out
 
 
-@register('resmfn')
-class ResMFN(nn.Module):
+@register('mfr')
+class MFR(nn.Module):
     def __init__(self, in_dim, out_dim, n_layers, feats_dim, filter='real-gabor', trainable=True):
         super().__init__()
 

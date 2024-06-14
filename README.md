@@ -30,7 +30,7 @@ We recommend using [conda](https://www.anaconda.com/distribution/) for installat
 
 ```
 conda env create --file environment.yaml
-conda activate mfn
+conda activate mfr
 ```
 
 Our codes rely on the project of [SRWarp](https://github.com/sanghyun-son/srwarp). Please install it using the following commands.
@@ -100,7 +100,7 @@ datasets
 
 Model|Download
 :-:|:-:
-MFR-EDSR-baseline|[Google Drive]()
+MFR-EDSR|[Google Drive]()
 MFR-RRDB|[Google Drive]()
 MFR-RCAN|[Google Drive]()
 
@@ -108,13 +108,13 @@ MFR-RCAN|[Google Drive]()
 
 ### **Homography transformation**
 
-**Train**: `CUDA_VISIBLE_DEVICES=0,1 python train_warp.py --config configs/train/train_rrdb_resmfn_warp.yaml --gpu 0,1`
+**Train**: `CUDA_VISIBLE_DEVICES=0,1 python train_warp.py --config configs/train/train_rrdb_mfr_warp.yaml --gpu 0,1`
 
 **Test**: `bash ./scripts/test_scripts/test-benchmark-warp.sh {YOUR_MODEL_PATH} 0`
 
 ###  **Asymmetric-scale SR**
 
-**Train**: `CUDA_VISIBLE_DEVICES=0 python train_sr.py --config configs/train/train_rcan_resmfn.yaml --gpu 0`
+**Train**: `CUDA_VISIBLE_DEVICES=0 python train_sr.py --config configs/train/train_rcan_mfr.yaml --gpu 0`
 
 **Test**: `bash ./scripts/test-benchmark-asym.sh {YOUR_MODEL_PATH} 0`
 
