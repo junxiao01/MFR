@@ -7,7 +7,7 @@ The Hong Kong Polytechnic University, Nanyang Technological University, Vector I
 ---
 
 **Abstract:** Image warping, a classic task in computer vision, aims to use geometric transformations to change the appearance of images. Recent methods learn the resampling kernels for warping through neural networks to estimate missing values in irregular grids, which, however, fail to capture local variations in deformed content and produce images with distortion and less high-frequency details. To address this issue, this paper proposes an effective method, namely MFR, to learn Multi-Frequency Representations from input images for image warping. Specifically, we propose a progressive filtering network to learn image representations from different frequency subbands and generate deformable images in a coarse-to-fine manner. Furthermore, we employ learnable Gabor wavelet filters to improve the model's capability to learn local spatial-frequency representations. Comprehensive experiments, including homography transformation, equirectangular to perspective projection, and asymmetric image super-resolution, demonstrate that the proposed MFR significantly outperforms state-of-the-art image warping methods. Our method also showcases superior generalization to out-of-distribution domains, where the generated images are equipped with rich details and less distortion, thereby high visual quality.
-![](figs/comp_sampling.png)
+![](figs/method_structure.png)
 
 
 ## 🔗 Contents
@@ -17,6 +17,7 @@ The Hong Kong Polytechnic University, Nanyang Technological University, Vector I
 - [x] [Pre-trained Models](#Pre-trained-Models)
 - [x] [Train and Test](#Train-and-Test)
 - [x] [Visual Results](#Visual-Results)
+- [x] [Citation](#Citations)
 
 
 ## Installation
