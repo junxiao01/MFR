@@ -100,9 +100,9 @@ datasets
 
 Model|Download
 :-:|:-:
-MFN-EDSR-baseline|[Google Drive]()
-MFN-RRDB|[Google Drive]()
-MFN-RCAN|[Google Drive]()
+MFR-EDSR-baseline|[Google Drive]()
+MFR-RRDB|[Google Drive]()
+MFR-RCAN|[Google Drive]()
 
 ## Train and Test
 
