@@ -100,9 +100,9 @@ datasets
 
 Model|Download
 :-:|:-:
-LTEW-EDSR-baseline|[Google Drive]()
-LTEW-RRDB|[Google Drive]()
-LTEW-RCAN|[Google Drive]()
+MFN-EDSR-baseline|[Google Drive]()
+MFN-RRDB|[Google Drive]()
+MFN-RCAN|[Google Drive]()
 
 ## Train and Test
 
